@@ -90,7 +90,7 @@ header {
 }
 
 .top-header-container>div:first-child>input:focus {
-    outline: 1px solid var(--dark-gray);
+    outline: 2px solid var(--blue);
 }
 
 #account {
@@ -403,7 +403,7 @@ footer {
     margin-top: 4rem;
     height: 30px;
     width: 100%;
-    background-color: #374151;
+    background-color: var(--dark-blue);
     grid-column: 1 / -1;
     display: flex;
     justify-content: center;
